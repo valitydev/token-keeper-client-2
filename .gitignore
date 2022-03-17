@@ -6,6 +6,7 @@
 
 # Run artifacts
 erl_crash.dump
+rebar3.crashdump
 log
 
 # make stuff
