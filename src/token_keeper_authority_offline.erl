@@ -6,8 +6,6 @@
 -export([get/2]).
 -export([revoke/2]).
 
--define(APP, token_keeper_client).
-
 %% API types
 
 -type create_error() :: {auth_data, already_exists}.

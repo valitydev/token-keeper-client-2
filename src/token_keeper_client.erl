@@ -13,7 +13,7 @@
 
 -type auth_data_id() :: binary().
 -type status() :: active | revoked.
--type context_fragment() :: tk_context_thrift:'ContextFragment'().
+-type context_fragment() :: bouncer_ctx_thrift:'ContextFragment'().
 -type authority_id() :: binary().
 -type metadata() :: #{binary() => binary()}.
 

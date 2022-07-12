@@ -4,8 +4,6 @@
 
 -export([authenticate/3]).
 
--define(APP, token_keeper_client).
-
 %% API types
 
 -type authenticate_error() ::
