@@ -20,7 +20,7 @@
  {<<"ranch">>,{pkg,<<"ranch">>,<<"1.8.0">>},2},
  {<<"scoper">>,
   {git,"https://github.com/valitydev/scoper",
-       {ref,"7f3183df279bc8181efe58dafd9cae164f495e6f"}},
+       {ref,"87110f5bd72c0e39ba9b7d6eca88fea91b8cd357"}},
   0},
  {<<"snowflake">>,
   {git,"https://github.com/valitydev/snowflake.git",
