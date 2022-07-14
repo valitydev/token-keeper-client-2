@@ -1,7 +1,6 @@
 -module(token_keeper_client_codec).
 
 -include_lib("token_keeper_proto/include/tk_token_keeper_thrift.hrl").
--include_lib("token_keeper_proto/include/tk_context_thrift.hrl").
 
 -export([encode_token_context/1]).
 -export([decode_authdata/1]).

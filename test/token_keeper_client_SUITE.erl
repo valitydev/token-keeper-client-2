@@ -1,6 +1,7 @@
 -module(token_keeper_client_SUITE).
 
 -include_lib("token_keeper_proto/include/tk_token_keeper_thrift.hrl").
+-include_lib("bouncer_proto/include/bouncer_ctx_thrift.hrl").
 
 -include_lib("stdlib/include/assert.hrl").
 -include_lib("common_test/include/ct.hrl").
@@ -44,7 +45,7 @@
 -define(USER_EMAIL, <<"TEST_EMAIL">>).
 -define(PARTY_ID, <<"TEST_PARTY">>).
 
--define(CTX_FRAGMENT, #bctx_ContextFragment{type = v1_thrift_binary}).
+-define(CTX_FRAGMENT, #ctx_ContextFragment{type = v1_thrift_binary}).
 -define(METADATA, #{
     <<"user_id">> => ?USER_ID,
     <<"user_email">> => ?USER_EMAIL,
